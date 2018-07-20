@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.4 Binary serialization", "4.4 Binary serialization\4.4 Binary serialization.csproj", "{96F4E22E-0645-44BA-8803-415622E00124}"
 EndProject
@@ -69,8 +69,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.2 Implicit conversion", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.2 AES Symmetric Algorithm", "3.2 AES Symmetric Algorithm\3.2 AES Symmetric Algorithm.csproj", "{782C06F8-799B-45B9-98FC-673540E033B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1 DriveInfo", "4.1 DriveInfo\4.1 DriveInfo.csproj", "{26B60F64-0880-4D5A-AB73-3C3A443476C4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1 Task.WhenAll", "4.1 Task.WhenAll\4.1 Task.WhenAll.csproj", "{3498A624-E788-40CE-AC8E-70EC5469521D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2 XmlReader", "4.2 XmlReader\4.2 XmlReader.csproj", "{0A46045D-180D-4E11-B4CF-1193C52FB93D}"
@@ -78,8 +76,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2 XmlWriter", "4.2 XmlWriter\4.2 XmlWriter.csproj", "{F582B224-EB9F-4A26-87D7-AF662A38C6DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.2 XmlDocument", "4.2 XmlDocument\4.2 XmlDocument.csproj", "{A60BA3C2-E224-4E56-A7A1-A7ADEC745224}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.3 XElement", "4.3 XElement\4.3 XElement.csproj", "{784CB062-CD9E-41B7-9354-4671CF9A6E0A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.4 Breakpoints", "3.4 Breakpoints\3.4 Breakpoints.csproj", "{3BA76DA5-0FB9-4CED-80A2-ED5B686D6899}"
 EndProject
@@ -90,6 +86,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.5 Type Reflection", "2.5 Type Reflection\2.5 Type Reflection.csproj", "{DFD154FC-89BE-4525-8359-AFB22A1402C9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.4 CarDelegate", "1.4 CarDelegate\1.4 CarDelegate.csproj", "{0613ED0D-9E98-438D-BE58-7793F0E5DE8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.1 DriveInfo", "4.1 DriveInfo\4.1 DriveInfo.csproj", "{EBA33913-7CA6-481A-A7EA-2536A061F589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.3 XElement", "4.3 XElement\4.3 XElement.csproj", "{429767DC-8CF8-48D2-B294-A61E2DDB80CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -229,10 +229,6 @@ Global
 		{782C06F8-799B-45B9-98FC-673540E033B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{782C06F8-799B-45B9-98FC-673540E033B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{782C06F8-799B-45B9-98FC-673540E033B1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26B60F64-0880-4D5A-AB73-3C3A443476C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26B60F64-0880-4D5A-AB73-3C3A443476C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26B60F64-0880-4D5A-AB73-3C3A443476C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26B60F64-0880-4D5A-AB73-3C3A443476C4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3498A624-E788-40CE-AC8E-70EC5469521D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3498A624-E788-40CE-AC8E-70EC5469521D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3498A624-E788-40CE-AC8E-70EC5469521D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -249,10 +245,6 @@ Global
 		{A60BA3C2-E224-4E56-A7A1-A7ADEC745224}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A60BA3C2-E224-4E56-A7A1-A7ADEC745224}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A60BA3C2-E224-4E56-A7A1-A7ADEC745224}.Release|Any CPU.Build.0 = Release|Any CPU
-		{784CB062-CD9E-41B7-9354-4671CF9A6E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{784CB062-CD9E-41B7-9354-4671CF9A6E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{784CB062-CD9E-41B7-9354-4671CF9A6E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{784CB062-CD9E-41B7-9354-4671CF9A6E0A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3BA76DA5-0FB9-4CED-80A2-ED5B686D6899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3BA76DA5-0FB9-4CED-80A2-ED5B686D6899}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BA76DA5-0FB9-4CED-80A2-ED5B686D6899}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -273,8 +265,19 @@ Global
 		{0613ED0D-9E98-438D-BE58-7793F0E5DE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0613ED0D-9E98-438D-BE58-7793F0E5DE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0613ED0D-9E98-438D-BE58-7793F0E5DE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA33913-7CA6-481A-A7EA-2536A061F589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA33913-7CA6-481A-A7EA-2536A061F589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA33913-7CA6-481A-A7EA-2536A061F589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA33913-7CA6-481A-A7EA-2536A061F589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{429767DC-8CF8-48D2-B294-A61E2DDB80CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429767DC-8CF8-48D2-B294-A61E2DDB80CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429767DC-8CF8-48D2-B294-A61E2DDB80CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{429767DC-8CF8-48D2-B294-A61E2DDB80CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51EEE2F5-A885-4709-9DB4-457E84F89939}
 	EndGlobalSection
 EndGlobal
