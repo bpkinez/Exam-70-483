@@ -5,9 +5,9 @@
       <emailaddress>john@john.com</emailaddress>
     </contactdetails>
   </person>
-  <preson firstname="jane" lastname="doe">
+  <person firstname="jane" lastname="doe">
     <contactdetails>
       <emailaddress>jane@jane.com</emailaddress>
     </contactdetails>
-  </preson>
+  </person>
 </people>

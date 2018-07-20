@@ -13,7 +13,7 @@ namespace _4._1_StreamReader
     {
         static void Main(string[] args)
         {
-            StreamReader sr = new StreamReader(@"C:\Users\Carolyn\Numbers2.txt");
+            StreamReader sr = new StreamReader(@"C:\Users\Tomyyy\Numbers.txt");
             Debug.WriteLine("Char by Char");
             while(!sr.EndOfStream)
             {
@@ -22,7 +22,7 @@ namespace _4._1_StreamReader
 
             sr.Close();
 
-            sr = new StreamReader(@"C:\Users\Carolyn\Numbers2.txt");
+            sr = new StreamReader(@"C:\Users\Tomyyy\Numbers.txt");
             Debug.WriteLine("Line by Line");
             while(!sr.EndOfStream)
             {
@@ -31,7 +31,7 @@ namespace _4._1_StreamReader
 
             sr.Close();
 
-            sr = new StreamReader(@"C:\Users\Carolyn\Numbers2.txt");
+            sr = new StreamReader(@"C:\Users\Tomyyy\Numbers.txt");
             Debug.WriteLine("Entire File");
             while(!sr.EndOfStream)
             {

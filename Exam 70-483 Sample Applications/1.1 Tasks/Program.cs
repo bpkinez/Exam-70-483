@@ -13,7 +13,12 @@ namespace _1._1_Tasks
         {
             //NewTask();
             // best practice
-            TaskDotRun();
+            //TaskDotRun();
+            //TaskFactoryStartNew();
+            //TaskReturnValue();
+            //TaskContinuation();
+            //ChildTasks();
+            TaskWaiting();
         }
 
         private static void NewTask()

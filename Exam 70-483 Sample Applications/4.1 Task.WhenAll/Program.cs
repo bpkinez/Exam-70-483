@@ -18,9 +18,12 @@ namespace _4._1_Task.WhenAll
             inputReader.CharsMatch += ir_CharsMatch;
 
             Console.WriteLine("Press d to begin download and x to exit...");
-            while(Console.ReadKey(true).KeyChar != null)
+
+            char pressedKey;
+
+            while((pressedKey = Console.ReadKey(true).KeyChar) != null)
             {
-                inputReader.CheckInput(Console.ReadKey().KeyChar);
+                inputReader.CheckInput(pressedKey);
             }
             
         }
@@ -36,9 +39,9 @@ namespace _4._1_Task.WhenAll
 
             Task[] tasks = new Task[]
             {
-                client.GetStringAsync("http://www.imarketplace.com.au"),
-                client.GetStringAsync("http://www.allthecraze.com.au"),
-                client.GetStringAsync("http://www.shopwhiz.com.au")
+                //client.GetStringAsync("http://www.imarketplace.com.au"),
+                //client.GetStringAsync("http://www.allthecraze.com.au"),
+                //client.GetStringAsync("http://www.shopwhiz.com.au")
             };
             //tasks[0] = client.GetStringAsync("http://www.imarketplace.com.au");
             //Task imarketplace = client.GetStringAsync("http://www.imarketplace.com.au");
@@ -81,11 +84,7 @@ namespace _4._1_Task.WhenAll
 
         protected virtual void OnCharsMatch(EventArgs e)
         {
-            EventHandler handler = CharsMatch;
-            if(handler != null)
-            {
-                handler(this, e);
-            }
+            CharsMatch?.Invoke(this, e);
         }
     }
 }

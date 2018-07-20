@@ -10,8 +10,10 @@ namespace _1._1_PLINQ
     {
         static void Main(string[] args)
         {
+            //UsingAsParallel();
             //OrderedParallelQuery();
-            AsSequential();
+            //AsSequential();
+            UsingForAll();
         }
 
         private static void UsingAsParallel()

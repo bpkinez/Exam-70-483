@@ -17,7 +17,7 @@ namespace _4._4_Binary_serialization
             Product prod = new Product();
             prod.name = "Candy Bar";
             prod.price = 1.95m;
-            prod.id = 1;
+            //prod.id = 1;
 
             IFormatter formatter = new BinaryFormatter();
 

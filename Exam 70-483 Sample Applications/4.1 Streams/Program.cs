@@ -12,7 +12,7 @@ namespace _4._1_Streams
     {
         static void Main(string[] args)
         {
-            FileStream fs = new FileStream(@"C:\Users\Carolyn\Numbers.txt", FileMode.Create, FileAccess.Write, FileShare.None);
+            FileStream fs = new FileStream(@"C:\Users\Tomyyy\Numbers.txt", FileMode.Create, FileAccess.Write, FileShare.None);
             for(int i = 0; i < 10; i++)
             {
                 byte[] number = new UTF8Encoding(true).GetBytes(i.ToString());
